@@ -93,7 +93,8 @@ function sum(num1, num2) {
 <br>
 
 #### linebreak-style
-https://eslint.org/docs/rules/linebreak-style
+- https://eslint.org/docs/rules/linebreak-style
+- You can switch as well with your IDE between LF(UNIX) & CRLF(Windows)
 ```javascript
 /*eslint linebreak-style: ["error", "unix"]*/
 
