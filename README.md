@@ -41,14 +41,17 @@ https://eslint.org/docs/rules/arrow-parens
 a => {}
 ```
 
-#### no-multiple-empty-lines
-https://eslint.org/docs/rules/no-multiple-empty-lines
+#### brace-style
+https://eslint.org/docs/rules/brace-style
 ```javascript
-/*eslint no-multiple-empty-lines: "error"*/
+// Good
+if (foo) {
+  bar();
+} else {
+  baz();
+}
 
-var foo = 5;
-
-
-
-var bar = 3;
+// Bad
+if (foo) { bar(); }
+else { baz(); }
 ```
