@@ -2,6 +2,8 @@
 Linter Cheat Sheet with the most needed stuff..
 
 
+<br><br>
+
 # ESLint
 - https://eslint.org/docs/user-guide/getting-started
 
