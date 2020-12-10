@@ -29,8 +29,9 @@ https://atom.io/packages/linter-eslint (https://www.youtube.com/watch?v=dG9EEkSC
 rules:
   arrow-parens: off
 ``` 
+<br><br>
 
-#### Arrow Parens
+#### arrow-parens
 https://eslint.org/docs/rules/arrow-parens
 ```javascript
 // Bad
@@ -38,4 +39,16 @@ https://eslint.org/docs/rules/arrow-parens
 
 // Good
 a => {}
+```
+
+#### no-multiple-empty-lines
+https://eslint.org/docs/rules/no-multiple-empty-lines
+```javascript
+/*eslint no-multiple-empty-lines: "error"*/
+
+var foo = 5;
+
+
+
+var bar = 3;
 ```
