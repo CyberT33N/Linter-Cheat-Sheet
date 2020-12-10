@@ -41,6 +41,8 @@ https://eslint.org/docs/rules/arrow-parens
 a => {}
 ```
 
+<br>
+
 #### no-multiple-empty-lines
 https://eslint.org/docs/rules/no-multiple-empty-lines
 ```javascript
@@ -52,6 +54,8 @@ var foo = 5;
 
 var bar = 3;
 ```
+
+<br>
 
 #### brace-style
 https://eslint.org/docs/rules/brace-style
