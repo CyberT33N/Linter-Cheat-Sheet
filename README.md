@@ -24,6 +24,7 @@ https://atom.io/packages/linter-eslint (https://www.youtube.com/watch?v=dG9EEkSC
 ## Rules
 - https://eslint.org/docs/rules/
 
+
 #### Disable Rules
 ```yaml
 rules:
@@ -70,4 +71,20 @@ if (foo) {
 // Bad
 if (foo) { bar(); }
 else { baz(); }
+```
+
+<br>
+
+#### require-jsdoc
+https://eslint.org/docs/rules/require-jsdoc
+```javascript
+/**
+ * Adds two numbers together.
+ * @param {int} num1 The first number.
+ * @param {int} num2 The second number.
+ * @returns {int} The sum of the two numbers.
+ */
+function sum(num1, num2) {
+    return num1 + num2;
+}
 ```
