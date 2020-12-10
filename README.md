@@ -88,3 +88,16 @@ function sum(num1, num2) {
     return num1 + num2;
 }
 ```
+
+
+<br>
+
+#### linebreak-style
+https://eslint.org/docs/rules/linebreak-style
+```javascript
+/*eslint linebreak-style: ["error", "unix"]*/
+
+var a = 'a'; // \r\n
+```
+
+
